@@ -1,0 +1,27 @@
+https://app.grammarly.com/
+맞춤법 교정 어플리케이션
+Demo : https://app.grammarly.com/docs/126179213
+
+
+Chating Chat
+https://chattingcat.com/student/index
+
+http://www.haruair.com/blog/2999
+
+Word2Vec
+- Co-occurence matrix 를 이용해서 단어와 함께 등장하는 단어들을 카운트 해서 표시한다.
+
+특이값 분해를 이용해서 matrix의 차원수를 줄여보자.
+sparse한것을 dense하게 만들어 보자
+word의 dense한 벡터를 이용해서
+특이값 분해도 n^3만큼의 계산복잡도가 있음.
+
+벤지오 교수의 Neural Probabilitic Language model
+
+word2vec
+1. cbow
+- 주변 단어들로 부터 현재 (중간) 단어를 예측
+2. Skip-gram
+- 현재 단어들로부터 주변 단어를 예측
+- semanic 한 단어를 찾는데 더 성능이 좋음.
+- 이것을 중점적으로!
